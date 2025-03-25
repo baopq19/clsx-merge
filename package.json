@@ -1,0 +1,37 @@
+{
+  "name": "clsx-merge",
+  "version": "1.0.1",
+  "description": "A utility that combines clsx and tailwind-merge for efficient Tailwind CSS class handling",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "clsx",
+    "classnames",
+    "merge",
+    "utility",
+    "classes"
+  ],
+  "author": "baopq19",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baopq19/clsx-merge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baopq19/clsx-merge/issues"
+  },
+  "homepage": "https://github.com/baopq19/clsx-merge#readme"
+}

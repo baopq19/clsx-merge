@@ -1,0 +1,35 @@
+# Git files
+.git
+.gitignore
+
+# Tests
+test/
+__tests__/
+coverage/
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+
+# Development configs
+.eslintrc
+.prettierrc
+tsconfig.json
+rollup.config.js
+babel.config.js
+jest.config.js
+
+# Docs that aren't needed in the package
+docs/
+examples/
+*.example.*
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Misc
+.DS_Store
+*.log 
