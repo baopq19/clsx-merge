@@ -1,7 +1,8 @@
 {
   "name": "clsx-merge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility that combines clsx and tailwind-merge for efficient Tailwind CSS class handling",
+  "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [

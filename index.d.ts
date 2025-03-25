@@ -7,5 +7,4 @@
  */
 declare function cn(...classes: any[]): string;
 
-export = cn;
-export as namespace cn; 
+export default cn; 

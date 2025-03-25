@@ -1,6 +1,6 @@
 // clsx-merge: Combine clsx and tailwind-merge utilities
-const clsx = require('clsx');
-const { twMerge } = require('tailwind-merge');
+import clsx from 'clsx';
+import { twMerge } from 'tailwind-merge';
 
 /**
  * Utility function that combines clsx and tailwind-merge
@@ -13,5 +13,4 @@ function cn(...classes) {
   return twMerge(clsx(...classes));
 }
 
-module.exports = cn;
-module.exports.default = cn; 
+export default cn; 
